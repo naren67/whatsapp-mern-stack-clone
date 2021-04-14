@@ -1,0 +1,23 @@
+.sidebarChats{
+          display: flex;
+          flex: 1;
+          background: white;
+          height: 62px;
+          justify-content: left;
+          align-items: center;
+          padding: 0px 12px;
+          border-bottom: 0.00001px solid rgba(0, 0, 0, 0.115);
+}
+
+.sidebarChats__info{
+        margin-left: 15px;
+}
+
+.sidebarChats__info p:nth-child(2){
+          font-size: 13px;
+          color: rgba(0, 0, 0, 0.707);
+}
+
+.sidebarChats:hover{
+          background: rgba(220, 220, 220, 0.224);
+}
