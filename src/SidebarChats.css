@@ -7,6 +7,7 @@
           align-items: center;
           padding: 0px 12px;
           border-bottom: 0.00001px solid rgba(0, 0, 0, 0.115);
+          cursor: pointer;
 }
 
 .sidebarChats__info{

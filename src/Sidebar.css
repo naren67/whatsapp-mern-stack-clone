@@ -1,5 +1,4 @@
 .sidebar{
-          background: gainsboro;
           display: flex;
           flex: 0.3;
           flex-direction: column;
@@ -9,16 +8,16 @@
           display: flex;
           justify-content: space-between;
           max-height: 60px;
-          background: rgba(0, 0, 0, 0.068);
+          background: rgba(220, 220, 220, 0.646);
           align-items: center;
           flex: 1;
           padding: 0px 15px;
+          border-right: 0.001px solid rgba(0, 0, 0, 0.156);
 }
 
 .sidebar__headerRight{
           display: flex;   
           flex: 0.4;
-
 }
 
 .sidebar__headerIcon{
@@ -39,19 +38,20 @@
 .sidebar__searchBar{
           display: flex;
           max-height: 59px;
-          background: honeydew;
+          background: rgba(220, 220, 220, 0.802);
           padding: 10px 10px;
           justify-content: center;
           align-items: center;
 }
 
 .sidebar__input{
-          border: 1px solid black;
           border-radius: 25px;
           display: flex;
           align-items: center;
           flex: 1;
           padding: 6px 10px;
+          background: rgba(255, 255, 255, 0.945);
+          
 }
 
 .sidebar__input input{
@@ -59,7 +59,13 @@
           height: 20px;
           border: none;
           outline: none;
-          background: honeydew;
+          background: rgba(255, 255, 255, 0);
           margin-left: 25px;
+}
+
+.sidebar__chats{
+          overflow: scroll;
+          overflow-x: auto;
+          margin: 0px 5.5px;
 }
 
